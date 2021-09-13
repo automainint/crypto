@@ -20,7 +20,7 @@ set(CMAKE_CXX_STANDARD 20)
 project(
   ${CRYPTO_PROJECT}
     VERSION 0.1.1
-    DESCRIPTION "C++ project template."
+    DESCRIPTION "Lite C++ cryptographic library."
     LANGUAGES CXX
 )
 
