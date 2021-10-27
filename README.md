@@ -1,8 +1,8 @@
 # crypto
 
-[![linux][linux-badge]][linux-link]
+Cryptography experiments in C++.
 
-Lite C++ cryptographic library.
-
-[linux-badge]:  https://github.com/automainint/crypto/workflows/linux/badge.svg
-[linux-link]:   https://github.com/automainint/crypto/actions?query=workflow%3Alinux
+- [ ] Big integer arithmetic
+- [ ] Hash functions
+- [ ] Elliptic curves
+- [ ] Signatures
