@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.18)
+cmake_minimum_required(VERSION 3.16)
 
 # Allow to set up the options for the dependencies.
 set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
