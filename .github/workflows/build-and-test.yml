@@ -33,7 +33,7 @@ jobs:
 
     - name: Build
       run: |
-        cmake -D CMAKE_BUILD_TYPE=$BUILD_TYPE -D CRYPTO_ENABLE_TESTING=ON -B build -S .
+        cmake -D CMAKE_BUILD_TYPE=$BUILD_TYPE -D CRYPTO_ENABLE_TESTING=ON -D CRYPTO_ENABLE_COVERAGE=ON -B build -S .
         cmake --build build --config $BUILD_TYPE
       env:
         CC: gcc-11
