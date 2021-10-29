@@ -1,5 +1,5 @@
 target_sources(
   ${CRYPTO_EXE}
     PRIVATE
-      test.cpp
+      c_integer.test.cpp
 )

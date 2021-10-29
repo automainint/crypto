@@ -3,4 +3,4 @@
 - Multiple `XOR` stream cipher.
 - `SHA` functions.
 - `HMAC` functions.
-- `ECC` key exchage.
+- `ECC` key exchange.

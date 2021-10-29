@@ -7,7 +7,7 @@ set(CMAKE_POLICY_DEFAULT_CMP0077 NEW)
 set(CMAKE_POLICY_DEFAULT_CMP0091 NEW)
 
 option(CRYPTO_ENABLE_EXE      "Enable executable"         ON)
-option(CRYPTO_ENABLE_TESTING  "Enable testing"            OFF)
+option(CRYPTO_ENABLE_TESTING  "Enable testing"            ON)
 option(CRYPTO_ENABLE_COVERAGE "Enable coverage reporting" OFF)
 
 set(CRYPTO_PROJECT    crypto)

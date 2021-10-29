@@ -1,10 +1,11 @@
 /bin/**
-/lib/**
+/lib*/**
+/*build*/**
 /include/**
-/build-*/**
-/build/**
 
 /.vs/
+/.idea/
 *.sln
 *.vcxproj
-*.vcxproj.*
+*.filters
+*.user
